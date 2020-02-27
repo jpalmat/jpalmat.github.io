@@ -1,9 +1,9 @@
 body {
-    background-image: url("./images/background.png")
+    background-image: url("../images/background.png")
 }
 
 .banner {
-    background-image: url("images/bannerbg.png");
+    background-image: url("../images/bannerbg.png");
 }
 
 .center {
@@ -43,7 +43,7 @@ body {
 }
 
 .titleCritics {
-    background-image: url("images/rbg.png");
+    background-image: url("../images/rbg.png");
 }
 
 .titleCriticsText {
