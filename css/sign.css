@@ -1,0 +1,25 @@
+.divBackground {
+    background-color: #9999ff;
+    width: 500px;
+}
+
+.legendStyle {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hintColor {
+    color: red;
+}
+
+.singButton {
+    background-color: #ff9999;
+    font-weight: bold;
+}
+
+.columns {
+    width: 50%;
+	margin-left: 2%;
+	float: left;
+}

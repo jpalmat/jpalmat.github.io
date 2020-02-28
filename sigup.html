@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/sign.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <form id="app-login" action="process.php">
+        <fieldset class="divBackground">
+            <legend class="legendStyle">New User SignUp</legend>
+            <div >
+                <div>
+                    <label for="user-name">Name:</label>
+
+                    <input name="user-name" type="text" maxlength="16">
+                </div>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" checked>
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <label for="age">Age:</label>
+
+                    <input name="age" type="text" size="6" maxlength="2">
+                </div>
+                <div>
+                    <a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp"><label for="personality">Personality
+                            Type:</label></a>
+
+                    <input name="personality" type="text" size="6">
+                    <label class="hintColor" for="personality">(Do not know your type?)</label>
+                </div>
+                <div>
+                    <label for="so">Favorite SO:</label>
+
+                    <select id="so">
+                        <option value="linux">Linux</option>
+                        <option value="windows" selected>Windows</option>
+                        <option value="mac">MAC OS X</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label>Seeking Age:</label>
+
+                    <input type="text" size="6" max="2" placeholder="min">
+                    <label>to</label>
+                    <input type="text" size="6" max="2" placeholder="max">
+                </div>
+                <div>
+                    <input class="singButton" name="login" type="submit" value="Sign Up">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
