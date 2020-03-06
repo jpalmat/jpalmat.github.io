@@ -1,0 +1,3 @@
+function gogogo(){
+    alert("fixed")
+}
