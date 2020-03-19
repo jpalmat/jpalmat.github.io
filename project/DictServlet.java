@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class DictServlet
+ * @author jimmypalma
  */
 //@WebServlet(name = "DictServlet")
 public class DictServlet extends HttpServlet {

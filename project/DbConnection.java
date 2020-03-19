@@ -23,7 +23,7 @@ import java.util.List;
  */
 /**
  *
- * @author username
+ * @author jimmypalma
  */
 public class DbConnection {
 
